@@ -15,8 +15,8 @@ function index() {
             <span>
             <p className= 'brand'>Subspace.</p>
             </span>
-            <span style={{marginLeft: "360px"}}>New to SubSpace? 
-            <Link to= "/"><button>Sign Up</button></Link>
+            <span style={{marginLeft: "350px"}}>New to SubSpace? 
+            <Link to= "/"><button style={{marginLeft: "10px"}}>Sign Up</button></Link>
             </span>
             </nav>
             </div>

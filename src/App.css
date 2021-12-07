@@ -91,6 +91,13 @@ form h6 {
     margin-top: 2px;
 }
 
+.codeErr {
+    margin-top: -15px;
+    font-size: 0.6rem;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
 .submit {
     background: #2b83ea;
     color: white;
@@ -105,9 +112,14 @@ form h6 {
 }
 
 .email,
-.password {
+.password,
+.verify {
     border: 0px;
     border-bottom: 1px solid black;
+}
+
+::placeholder {
+    font-size: 0.7rem;
 }
 
 img {
