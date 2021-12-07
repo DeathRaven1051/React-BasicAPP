@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background: #0b1f42;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.NAV {
+    position: absolute;
+    top: 15%;
+    left: 27%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.brand {
+    font-family: 'Limelight', cursive;
+    font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav button {
+    background: #2b83ea;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    left: 27%;
+    top: 25%;
+}
+
+.wrap1 {
+    height: 450px;
+    width: 300px;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    z-index: 10;
+    border-radius: 8px;
+    position: relative;
+    left: 1.5%;
+}
+
+.content1 {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    max-width: 250px;
+}
+
+.wrap2 {
+    height: 450px;
+    width: 400px;
+    background: rgb(235, 233, 233);
+    border-radius: 0px 8px 8px;
+}
+
+.content2 {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    max-width: 300px;
+}
+
+form {
+    margin: 40px 20px;
+    border: 0px solid;
+    box-shadow: none;
+}
+
+form h6 {
+    margin-left: 65px;
+    margin-top: 2px;
+}
+
+.submit {
+    background: #2b83ea;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: none;
+}
+
+.email,
+.password {
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+img {
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+.images {
+    max-width: 300px;
+    position: relative;
+    left: 13%;
+    margin-top: 50px;
 }
